@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { OpenAI } from "openai";
+import AI_API_KEY from "@/apikey";
 
 export default function AIRecommedation() {
   const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: AI_API_KEY,
     dangerouslyAllowBrowser: true,
   });
   const [prompt, setPrompt] = useState("");
