@@ -3,7 +3,7 @@ import { OpenAI } from "openai";
 
 export default function AIRecommedation() {
   const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: "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",
     dangerouslyAllowBrowser: true,
   });
   const [prompt, setPrompt] = useState("");
